@@ -1,6 +1,8 @@
 //charAt MDN string method
 
-let message = 'Welcome to solvit Africa';
-let method = message.charAt(4);// this mrthod will return the character at the specified index in a string
+function character(string, index) {
+    return string.charAt(index);
+}
 
-console.log (method);
+let msg = 'Welcome';
+console.log(character(msg, 0));
